@@ -25,7 +25,7 @@ interact with 01.ai LLM from within Emacs, heavily inspired by org-ai.
 		(message "mhb-ai loaded"))
 	```
 3. 打开一个 org 文件，插入 #+begin_mai ... #+end_mai block，在 block 里写问题，C-c C-c 调用 API，AI 的回答会写到 block 里，就像这样：
-	(https://jacknashg.github.io/assets/imgs/240321syxg.gif)
+	![demo](https://jacknashg.github.io/assets/imgs/240321syxg.gif)
 	
 	
 # 说明
