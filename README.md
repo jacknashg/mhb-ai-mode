@@ -18,9 +18,9 @@ interact with 01.ai LLM from within Emacs, heavily inspired by org-ai.
 2. 修改 Emacs init 文件，增加从 /tmp/mhb-ai-mode 加载文件
 	```emacs-lsp
 	(use-package mhb-ai
-		:load-path "/Users/nashjackmu/wolfman/scripts/mhb-ai-20240321.001"
+		:load-path "/tmp/mhb-ai-mode"
 		:init
-		(add-hook 'org-mode-hook #'mhb-ai-mode)
+		(add-hook 'org-mode-hook #'mhb-ai-mode)  ;; 打开 org 文件时启用 mhb-ai-mode
 		:config
 		(message "mhb-ai loaded"))
 	```
